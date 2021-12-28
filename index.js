@@ -125,7 +125,16 @@
 
 // console.log('Cnjanan' < 'Banu');
 
-console.log(1 == true);
+let age = 10;
 
+let type = age > 18 ? 'Adult ticket' : 'Child ticket'
+
+console.log(type);
+
+// if (age <= 14) {
+//     let type = 'Child ticket';
+// } else {
+//     let type = 'Adult ticket'
+// }
 
 
