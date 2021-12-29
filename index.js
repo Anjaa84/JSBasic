@@ -125,16 +125,35 @@
 
 // console.log('Cnjanan' < 'Banu');
 
-let age = 10;
+// let age = 10;
 
-let type = age > 18 ? 'Adult ticket' : 'Child ticket'
+// let type = age > 18 ? 'Adult ticket' : 'Child ticket'
 
-console.log(type);
+// console.log(type);
 
 // if (age <= 14) {
 //     let type = 'Child ticket';
 // } else {
 //     let type = 'Adult ticket'
 // }
+
+
+// let highIncome = true;
+// let CIBILScore = true;
+
+
+// let eligiblePerson = highIncome || CIBILScore;
+
+// let applicationStatus  = Person;
+
+// console.log("Loan Status:"+eligiblePerson);
+// console.log("Application Status"+applicationStatus);
+
+
+// Bitwise operator
+
+console.log(1 | 2);
+
+
 
 
