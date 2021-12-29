@@ -144,15 +144,114 @@
 
 // let eligiblePerson = highIncome || CIBILScore;
 
-// let applicationStatus  = Person;
+// let applicationStatus = !eligiblePerson;
 
-// console.log("Loan Status:"+eligiblePerson);
-// console.log("Application Status"+applicationStatus);
+// console.log("Loan Status: " + eligiblePerson);
+// console.log("Application Status: " + applicationStatus);
+
+/*
+FALSY
+undefined
+null
+0
+false
+''
+NaN
+
+
+*/
+
+
+/*
+Truty ---> anything that is not truty
+
+
+*/
+
+// let userColor = '1';
+// let defaultColor = '';
+// let currentColor = userColor || defaultColor;
+
+// console.log(currentColor);
+
+
+
+
+
 
 
 // Bitwise operator
 
-console.log(1 | 2);
+// This result are turned into binary and operated and then turned back into decimal
+// const readPermission = 4;
+// const writePermission = 2;
+// const executePermission = 1;
+
+// let myPermission = 0;
+
+// myPermission = myPermission | readPermission;
+
+// let msg = (myPermission & readPermission) ? 'Yes' : 'No';
+
+// console.log(msg);
+
+
+// let num1;
+// let num2;
+
+// if (num1 != null && num2 != null)
+//     console.log('Values are present');
+// else if (num1 == 4)
+//     console.log('4 unknown');
+// else
+//     console.log('Killed it');
+
+
+// let date = new Date();
+
+// let hour = date.getHours();
+
+
+// if (hour >= 0 && hour <= 13) {
+//     console.log("Good Morning!");
+
+// } else if (hour >= 13 && hour <= 17)
+//     console.log("Good Afternoon");
+// else
+//     console.log("Good Evening !");
+
+
+
+// let power = 'B'
+// switch (power) {
+//     case 'A':
+//         console.log('SuperMan');
+//         break;
+//     case 'B':
+//         console.log('BatMan');
+//         break;
+//     case 'C':
+//         console.log('CatWoman');
+//         break;
+//     default:
+//         console.log('Rajini');
+//         break;
+// }
+
+
+
+for (i = 1; i <= 10; i++) {
+    if (i % 2 == 0) console.log('Even number among the loop : ' + i);
+}
+
+
+
+
+
+
+
+
+
 
 
 
